@@ -1,0 +1,30 @@
+{
+    "Template commands files": {
+        "prefix": "aka.commands.template",
+        "body": [
+            "const { Command } = require('discord-akairo')",
+            "const { Message } = require('discord.js');",
+            "",
+            "module.exports = class ${1:CommandName}Command extends Command {",
+            "    constructor() {",
+            "        super('${2:CommandName}', {",
+            "            aliases: ['${2:CommandName}'],",
+            "            category: '${3:Category}',",
+            "            description: '${4:Description}',",
+            "            ratelimit: ${5:RateLimit},",
+            "            clientPermissions: ['${6:ClientPermissions}'],",
+            "            userPermissions: ['${7:UserPermissions}'],",
+            "        })",
+            "    }",
+            "",
+            "   /**",
+            "    * @param {Message} message",
+            "    */",
+            "   exec(message, args) {",
+            "        ",
+            "    }",
+            "}",
+        ],
+        "description": "Create a basic Template commands files",
+    }
+}

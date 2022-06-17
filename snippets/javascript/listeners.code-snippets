@@ -1,0 +1,27 @@
+{
+    "Template listeners files": {
+        "prefix": "aka.listeners.template",
+        "body": [
+            "const { Listener } = require('discord-akairo')",
+            "const { ${7:Type} = require('discord.js');",
+            "",
+            "module.exports = class ${1:ListenerName}Listener extends Listener {",
+            "    constructor() {",
+            "        super('${2:ListenerName}', {",
+            "            emitter: '${3:EmitterName}',",
+            "            event: '${4:EventName}',",
+            "            category: '${5:Category}',",
+            "        })",
+            "    }",
+            "",
+            "    /**",
+            "     * @param {${7:Type}} ${6:Parameters}",
+            "     */",
+            "    exec(${6:Parameters}) {",
+            "        ",
+            "    }",
+            "}",
+        ],
+        "description": "Create a basic Template listeners files",
+    }
+}

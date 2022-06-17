@@ -1,0 +1,11 @@
+{
+    "Template for index file": {
+        "prefix": "aka.index",
+        "body": [
+            "const Client = require('${1:path-to-client-file}')",
+            "const client = new Client()",
+            "client.login('${2:token}')"
+        ],
+        "description": "Create a basic Discord bot index.js file",
+    }
+}

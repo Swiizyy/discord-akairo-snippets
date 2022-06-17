@@ -14,10 +14,20 @@
     "snippets": [
       {
         "language": "",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/javascript/client.code-snippets"
+      }, {
+        "language": "./snippets/javascript/commands.code-snippets"
+      }, {
+        "language": "./snippets/javascript/listeners.code-snippets"
+      }, {
+        "language": "./snippets/javascript/index.code-snippets"
       }
     ]
   },
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Swiizyy/discord-akairo-snippets.git"
